@@ -8,6 +8,12 @@
     body {
         overflow:hidden;
     }
+    main {
+        width: 1629px;
+        height:622px;
+        top:20vh;
+        position:absolute;
+    }
     #infobutton {
         position:absolute;
         top:0;
@@ -48,68 +54,35 @@
      text-decoration: none;
      color:inherit;
     }
-    main{
-        top:70px;
-        height:80vh;
-        width:100vw;
+    .warningcontainer {
+        background-color:slategrey;
         position:absolute;
+        top:0vh;
+        width:40vw;
+        height:70vh;
+        left:30vw;
+        content:'';
     }
-    main p {
-        width:200px;
-        height:auto;
-        opacity:0%;
-        position:absolute;
+    .warningcontainer p{
+        width:35vw;
+        height:30vh;
+        text-align:center;
+        right:-2.5vw;
+        position:relative;
+        bottom:-15vh;
     }
-    main p:hover {
-        opacity:100%;
-    }
-    main h1 {
-        height:30px;
-        position:absolute;
-        width:100vw;
-        padding-top:20px;
-        right:-40vw;
-    }
-    .quotes{
+    .warningcontainer h2 {
         width:inherit;
-        height:inherit;
+        height:35px;
+        text-align:center;
+        padding-top:20px;
+        padding-bottom:20px;
     }
-    #quote1{
-        top:20%;
-        left:15%;
-    }
-    #quote2{
-        top:70%;
-        right:5%;
-    }
-    #quote3{
-        top:90%;
-        left:32%;
-    }
-    #quote4{
-        top:10%;
-        right:1%;
-    }
-    #quote5{
-        top:96%;
-        left:8%;
-    }
-    #quote6{
-        top:60%;
-        left:45%;
-
-    }
-    #quote7 {
-        top:50%;
-        left:20%;
-    }
-    #quote8 {
-        top:30%;
-        right:30%;
-    }
-    #quote9 {
-        top:98%;
-        right:14%;
+    .warningcontainer h3{
+        width:inherit;
+        height:100px;
+        text-align:center;
+        padding-top:20px;
     }
 }
 

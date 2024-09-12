@@ -1,0 +1,122 @@
+
+* {
+    margin:0;
+    width:100vw;
+    height:100vh;
+
+}
+
+/*For devices above 1600px wide*/
+@media (min-width:1600px) {
+
+
+    body{
+        overflow:hidden;
+    }
+    aside{
+        width:300px;
+        height:670px;
+        position:absolute;
+        top:10vh;
+        right:0;
+    }
+    main {
+        width: 1629px;
+        height:622px;
+        top:20vh;
+        position:absolute;
+    }
+    .navcontainer {
+        background-color:slategrey;
+        height: 70px;
+        width:100vw;
+        position:absolute;
+        content: '';
+        top:10vh;
+    }
+    #homebutton {
+        right:45vw;
+        top:2.5vh;
+        position:absolute;
+        text-decoration:none;
+        width:140px;
+        height:21px;
+    }
+    #homebutton h3{
+        width:140px;
+        height:21px;
+    }
+    a {
+     text-decoration: none;
+     width:inherit;
+     height:inherit;
+    }
+        #infobutton {
+            position:absolute;
+            top:0;
+            padding:1.2%;
+            right:3.5vw;
+    
+        }
+        #pointsbutton {
+            position:absolute;
+            top:0;
+            padding:1.2%;
+            left:25vw;
+        }
+        a {
+            text-decoration: none;
+            color:inherit;
+           }
+           .navcontainer h4 {
+            padding: 1.2%;
+            height:auto;
+            width:auto;
+        }
+        footer {
+            background-color:slategrey;
+            position:absolute;
+            bottom:0;
+            width:100vw;
+            height:20vh;
+            text-align:center;
+        }
+        footer h1 {
+            padding-top:8vh;
+        }
+        header {
+            top:0;
+            position:absolute;
+            height:10vh;
+            background-color:lightslategrey;
+        }
+        header h1 {
+            text-align:center;
+            padding-top:4vh;
+        }
+        article {
+            background-color:slategrey;
+            width:20vw;
+            height:60vh;
+            position:absolute;
+            right:0;
+            margin-right:10vw;
+            bottom:21vh;
+        }
+        article h1{
+            text-align:center;
+            height:inherit;
+            width:inherit;
+            padding-top:20px;
+        }
+        section {
+            width:inherit;
+            height:85%;
+            background-color:lightslategrey;
+            bottom:1vh;
+            position:absolute;
+        }
+        section h1{
+            padding-top:50%;
+        }
+}
