@@ -1,0 +1,269 @@
+
+* {
+    margin:0;
+    width:100vw;
+    height:100vh;
+
+}
+
+/*For devices above 1600px wide*/
+@media (min-width:1600px) {
+
+    body{
+        overflow:scroll;
+    }
+    aside{
+        width:300px;
+        height:800px;
+        position:absolute;
+        top:0;
+        right:0;
+    }
+    main {
+        width: 1629px;
+        height:822px;
+        top:0;
+        position:absolute;
+    }
+    .navcontainer {
+        background-color:slategrey;
+        height: 70px;
+        width:100vw;
+        position:absolute;
+        content: '';
+        top:0;
+    }
+    #homebutton {
+        text-align:center;
+        top:2.5vh;
+        position:absolute;
+        text-decoration:none;
+    }
+    #homebutton h3{
+        width:140px;
+        height:21px;
+    }
+    a {
+     text-decoration: none;
+    }
+    .textcontainer {
+        background-color: slategrey;
+        height: 400px;
+        width: 300px;
+        position:absolute;
+        top:20vh;
+        right:0;
+        margin-right:2%;
+
+    }
+    .textcontainer h2 {
+        padding-left:30px;
+        padding-top: 10px;
+        margin-bottom:30px;
+        height:20px;
+        width:300px;
+    }
+    .textcontainer li {
+        height: 10vh;
+        width: 230px;
+    }
+    .textcontainer ul {
+        width:280px;
+        height:300px;
+    }
+
+    .sourcescontainer {
+        background-color: slategrey;
+        height: 180px;
+        width: 300px;
+        position:absolute;
+        bottom:3vh;
+        right:0;
+        margin-right:2%;
+
+    }
+    .sourcescontainer h2{
+        height:20px;
+        padding-left:100px;
+        margin-top:10px;
+        padding-bottom:20px;
+        width:200px;
+    }
+    .sourcescontainer a{
+        text-decoration: none;
+        color: black;
+        height:120px;
+        width:100px;
+
+    }
+    .sourcescontainer ul{
+        height:100px;
+        width:200px;
+        padding: 0%;
+        padding-left:50px;
+
+    }
+    .sourcescontainer li{
+        margin-bottom:10px;
+        height:20px;
+        width:200px;
+    }
+    .motivationalcontainer{
+        background-color: slategrey;
+        top: 20vh;
+        left:2vw;
+        width:800px;
+        height:600px;
+        position:absolute;
+        display:flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+/*For devices under 1600px wide*/
+@media (max-width:1600px) {
+    body{
+        overflow:scroll;
+    }
+    aside{
+        width:300px;
+        height:800px;
+        position:absolute;
+        top:0;
+        right:0;
+    }
+    main {
+        width: 1429px;
+        height:822px;
+        top:70px;
+        position:absolute;
+    }
+    .navcontainer {
+        background-color:slategrey;
+        height: 70px;
+        width:100vw;
+        position:absolute;
+        content: '';
+        top:0;
+    }
+    .navcontainer h4 {
+        padding: 2%;
+        height:auto;
+        width:auto;
+    }
+    #homebutton {
+        top:2.5vh;
+        position:absolute;
+        text-decoration:none;
+        width:300px;
+        height:21px;
+        right:30vw;
+    }
+
+    a {
+     text-decoration: none;
+     color:inherit;
+    }
+    .textcontainer {
+        background-color: slategrey;
+        height: 400px;
+        width: 300px;
+        position:absolute;
+        top:15vh;
+        right:0;
+        margin-right:2%;
+
+    }
+    .textcontainer h2 {
+        padding-left:30px;
+        padding-top: 10px;
+        margin-bottom:30px;
+        height:20px;
+        width:300px;
+    }
+    .textcontainer li {
+        height: 10vh;
+        width: 230px;
+    }
+    .textcontainer ul {
+        width:280px;
+        height:300px;
+    }
+
+    .sourcescontainer {
+        background-color: slategrey;
+        height: 180px;
+        width: 300px;
+        position:absolute;
+        bottom:14vh;
+        right:0;
+        margin-right:2%;
+
+    }
+    .sourcescontainer h2{
+        height:20px;
+        padding-left:100px;
+        margin-top:10px;
+        padding-bottom:20px;
+        width:200px;
+    }
+    .sourcescontainer a{
+        text-decoration: none;
+        color: black;
+        height:120px;
+        width:100px;
+
+    }
+    .sourcescontainer ul{
+        height:100px;
+        width:200px;
+        padding: 0%;
+        padding-left:50px;
+
+    }
+    .sourcescontainer li{
+        margin-bottom:10px;
+        height:20px;
+        width:200px;
+    }
+    .motivationalcontainer{
+        background-color: slategrey;
+        top: 15vh;
+        left:2vw;
+        width:800px;
+        height:600px;
+        position:absolute;
+        display:flex;
+        justify-content: center;
+    }
+.motivationalcontainer h2{
+    top:0;
+    left:20vw;
+    position:absolute;
+    width:300px;
+    height:30px;
+    padding-top:20px;
+}
+
+    .motivationalcontainer img {
+        width:200px;
+        height:auto;
+        position:relative;
+        top:0vh;
+        margin:20px;
+        border: 4px inset lightslategrey;
+    }
+    #motivationalheader {
+        width:600px;
+        height:50px;
+    }
+    #motivationalphotos {
+        width:inherit;
+        height: 550px;
+        position:absolute;
+        bottom:0;
+    }
+}
