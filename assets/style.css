@@ -126,7 +126,7 @@
 /*For devices under 1600px wide*/
 @media (max-width:1600px) {
     body{
-        overflow:scroll;
+        overflow:hidden;
     }
     aside{
         width:300px;
@@ -155,7 +155,7 @@
         width:auto;
     }
     #homebutton {
-        top:2.5vh;
+        padding:2%;
         position:absolute;
         text-decoration:none;
         width:300px;
@@ -174,7 +174,7 @@
         position:absolute;
         top:15vh;
         right:0;
-        margin-right:2%;
+        margin-right:15%;
 
     }
     .textcontainer h2 {
@@ -198,9 +198,9 @@
         height: 180px;
         width: 300px;
         position:absolute;
-        bottom:14vh;
+        bottom:12vh;
         right:0;
-        margin-right:2%;
+        margin-right:15%;
 
     }
     .sourcescontainer h2{
@@ -231,7 +231,7 @@
     }
     .motivationalcontainer{
         background-color: slategrey;
-        top: 15vh;
+        top: 6vh;
         left:2vw;
         width:800px;
         height:600px;
