@@ -7,7 +7,7 @@
 }
 
 /*For devices above 1600px wide*/
-@media (min-width:1600px) {
+@media (min-width:1200px) {
 
 
     body{

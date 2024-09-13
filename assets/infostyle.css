@@ -4,7 +4,7 @@
     height:100vh;
 
 }
-@media (min-width:1600px) {
+@media (min-width:1400px) {
     body {
         overflow:hidden;
     }
