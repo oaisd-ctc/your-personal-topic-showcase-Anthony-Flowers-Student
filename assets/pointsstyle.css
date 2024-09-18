@@ -89,10 +89,21 @@
             position:absolute;
             height:10vh;
             background-color:lightslategrey;
+            width:100vw;
         }
+
         header h1 {
+            position:absolute;
+            width:inherit;
+            height:inherit;
+            letter-spacing:10px;
             text-align:center;
-            padding-top:4vh;
+            padding-top:2vh;
+        }
+        header img{
+            height:inherit;
+            width:inherit;
+            top:0;
         }
         article {
             background-color:slategrey;
@@ -118,5 +129,15 @@
         }
         section h1{
             padding-top:50%;
+        }
+        footer img {
+            width:inherit;
+            height:inherit;
+        }
+        footer h1 {
+            position:absolute;
+            width:inherit;
+            height:inherit;
+            letter-spacing:10px;
         }
 }
